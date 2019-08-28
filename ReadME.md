@@ -49,10 +49,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # Print Middle Server
 
 ## Install
-1. yarn create react-app my-app --typescript
+1. yarn create react-app client --typescript
 2. yarn add react-router-dom
 3. yarn add @types/react-router-dom
-
+4. yarn add styled-components @types/styled-components
 
 ## ToDo - JSX
 [ ] - User Set Options to Checkbox.
