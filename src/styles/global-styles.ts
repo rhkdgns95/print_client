@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     html, body {
         padding: 0;
         margin: 0;
+        height: 100%;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     }
     ul, li, a {
