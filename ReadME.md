@@ -54,6 +54,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 3. yarn add @types/react-router-dom
 4. yarn add styled-components @types/styled-components
 5. yarn add axios
+6. yarn add apollo-boost react-apollo
+7. yarn add graphql --dev
 
 ## ToDo - JSX
 [ ] - User Set Options to Checkbox.

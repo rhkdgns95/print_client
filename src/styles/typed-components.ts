@@ -4,6 +4,7 @@ import { ThemedStyledComponentsModule } from "styled-components";
 interface IProps {
     blueColor: string;
     grayColor: string;
+    greenColor: string;
 }
 
 const {

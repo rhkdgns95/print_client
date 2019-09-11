@@ -4,13 +4,15 @@ import Home from "./Routes/Home";
 import { ThemeProvider } from "./styles/typed-components";
 import theme from "./styles/theme";
 
-const App: React.FC = () => (
+const App: React.FC<any> = () => (
   <ThemeProvider theme={theme}>
     <AppPresenter/>
   </ThemeProvider>
 )
 
-const AppPresenter: React.FC = () => (
+const AppPresenter: React.FC<any> = ({
+  data
+}) => (
   <BrowserRouter>
     <Switch>
       <Route to={"/"} exact={true} component={Home}/>
